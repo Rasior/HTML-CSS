@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*
+    Em HTML é id = em CSS é # (só pode um elemento, dentro de um mesmo HTML)
+    Em HTML é class = em CSS é (pode vários elementos).
+
+    ID sobrepõe as configurações de Class.
+
+    Primeiro configura um genérico e depois vamos para as configurações detalhadas com ID e Class, mas sempre herdando o que vem antes por cima
+*/
+
+body{
+    background-color: #d1effc;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1{
+    color: #012636;
+}
+
+h1#principal{
+    color: white;
+    text-align: center;
+    background-color: #015276;
+}
+h2{
+    color: #012636;
+}
+
+.basico{
+    color: #180136;
+}
+
+.intermediario{
+    color: #6d6202;
+}
+
+.avancado{
+    color: #5a014b;
+}
+
+.destaque{
+    background-color: #3e4242;
+}
