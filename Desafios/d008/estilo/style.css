@@ -139,7 +139,16 @@ main a:hover{
 }
 
 main > article > img{
+    margin: 0px -20px 30px -20px;
+    display: block;
     width: 100%;
+}
+
+main > article > img.grande{
+    margin: 0px -20px 30px -20px;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 main > article > img.pequena{
