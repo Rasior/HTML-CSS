@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
-    <title>Meus Vídeos</title>
+    <title>Imagem Flexível</title>
 </head>
 <body>
-    <h1>Vídeos legais para assistir</h1>
-    <a href="Cursohtml.html" ><img src="Imagens/thumb-html.png" alt="Curso HTML" width="300"></a> <a href="cursoJs.html"><img src="Imagens/thumb-js.png" alt="Curso JS" width="300"></a><br>
-    <a href="cursohardware.html"><img src="Imagens/thumb-hardware.png" alt="Curso Hardware" width="300"></a>   <a href=""><img src="Imagens/thumb-python.png" alt="Curso Python" width="300"></a>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="paisagem-p.png">
+        <source media="(max-width: 1050px)" srcset="paisagem-m.png">
+        <img src="paisagem-g.png" alt="Imagem">
+    </picture>
 </body>
 </html>
